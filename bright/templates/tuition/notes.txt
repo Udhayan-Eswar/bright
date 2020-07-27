@@ -1,0 +1,6 @@
+<?php
+$a=array("red","green");
+$b = 1;
+array_push($a,$b);
+print_r($a);
+?>
