@@ -103,7 +103,7 @@ include_once('static/connection.php');
 
 <nav class="blue darken-2">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">Bright-Tuition</a>
+    <a href="index.php" class="brand-logo center">Bright-Tuition</a>
      
       <!-- <ul class="left hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
@@ -129,7 +129,7 @@ include_once('static/connection.php');
     <div class="row">
     <!-- Form -->
     <form method="POST">
-    <h3>Login-Tutors</h3>
+    <h3>Register-Tutors</h3>
       <div class="row">
       <!-- Name -->
         <div class="input-field col s6">

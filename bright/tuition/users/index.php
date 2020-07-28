@@ -16,13 +16,7 @@
 
 <nav class="blue darken-2">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">Bright-Tuition</a>
-     
-      <!-- <ul class="left hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li class="active"><a href="collapsible.html">JavaScript</a></li>
-      </ul> -->
+      <a href="index.php" class="brand-logo center">Bright-Tuition</a>
     </div>
   </nav>
 
@@ -38,6 +32,10 @@
         <li class="tab"><a class=" deep-purple accent-2 black-text text-darken-2" href="reg_tutor.php">Register as Tutor</a></li>
       </ul>
     </div>
- 
+    <center>
+ <footer>
+ <h3>  You can use this website.Yet this site is still under construction , so some features may not be available.  </h3>
+ </footer>
+ </center>
 </body>
 </html>

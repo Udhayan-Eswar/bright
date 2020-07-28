@@ -5,6 +5,11 @@ if(isset($_SESSION['username']))
 {
   $name = $_SESSION['username'];
 }
+else{
+  echo "<script>
+window.location.href = '../index.php';
+</script>";
+}
 ?>
 
 <?php
@@ -73,6 +78,8 @@ if(isset($_SESSION['username']))
   <a href="#performance_chart.php" style=" text-decoration:none" >Performance Chart</a>
   <a href="#view_courses.php" style=" text-decoration:none" >View Courses</a>
   <a href="https://www.onlinegdb.com/classroom" style=" text-decoration:none" >ClassRoom</a>
+  <a href="chat.php" style=" text-decoration:none" >Chat</a>
+  <a href="../../contactus.php" style=" text-decoration:none" >Contact-Us</a>
   
 </div>
 
@@ -87,13 +94,12 @@ if(isset($_SESSION['username']))
       <li><a href="#notifications.php" style=" text-decoration:none"><i class="material-icons" style="color:black;">notifications</i></a></li></a>
       
         <!-- <li><a href="badges.html" class="black-text">Components</a></li> -->
-        <li><a href="#logout.php" class="black-text" style=" text-decoration:none" >Logout</a></li>
+        <li><a href="logout.php" class="black-text" style=" text-decoration:none" >Logout</a></li>
       </ul>
     </div>
   </nav>
 
-
-
+  
 
 
   
@@ -112,7 +118,9 @@ if(isset($_SESSION['username']))
     {
         $tutor_id = $row['tutorid'];
         $name = $row['name'];
-      echo"<option value='$tutor_id'>Name: $name  ------ Id: $tutor_id</option>";
+        ?>
+      <option value='<?php echo $tutor_id;?>'Name:<?php echo $name; ?>> ------ Id:<?php echo $tutor_id;?> </option>
+      <?php
     }
     ?>
     </select>

@@ -40,7 +40,7 @@ if(isset($_POST['login']))
 
 <nav class="blue darken-2">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">Bright-Tuition</a>
+    <a href="index.php" class="brand-logo center">Bright-Tuition</a>
     </div>
   </nav>
 

@@ -10,6 +10,12 @@ if(isset($_SESSION['username']))
         $tutor_id = $row['tutorid'];
      }
 }
+else
+{
+  echo "<script>
+    window.location.href = '../index.php';
+    </script>";
+}
 ?>
 
 
@@ -44,6 +50,8 @@ if(isset($_SESSION['username']))
   <a href="performance_chart.php">Performance Chart</a>
   <a href="#view_courses.php">View Courses</a>
   <a href="https://www.onlinegdb.com/classroom">ClassRoom</a>
+  <a  href="users/students/chat.php" style=" text-decoration:none" >Chat</a>
+  <a href="contactus.php" style=" text-decoration:none" >Contact-Us</a>
   
 </div>
 

@@ -97,7 +97,7 @@ include_once('static/connection.php');
 
 <nav class="blue darken-2">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">Bright-Tuition</a>
+    <a href="index.php" class="brand-logo center">Bright-Tuition</a>
      
       <!-- <ul class="left hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>

@@ -7,6 +7,11 @@ if(isset($_SESSION['username']))
 {
   $name = $_SESSION['username'];
 }
+else{
+  echo "<script>
+    window.location.href = '../index.php';
+    </script>";
+}
 ?>
 
 <!DOCTYPE html>
@@ -38,6 +43,8 @@ if(isset($_SESSION['username']))
   <a href="performance_chart.php">Performance Chart</a>
   <a href="#view_courses.php">View Courses</a>
   <a href="https://www.onlinegdb.com/classroom">ClassRoom</a>
+  <a  href="chat.php" style=" text-decoration:none" >Chat</a>
+  <a href="contactus.php" style=" text-decoration:none" >Contact-Us</a>
   
 </div>
 
